@@ -1,0 +1,94 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+ </head>
+ <body>
+   <header>
+      <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-4 my-3" href="#">My Website</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto m-3">
+              <li class="nav-item">
+                <a class="nav-link " href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">setting</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="my-3">
+      <h1 id="title">calculator-task</h1>
+    </div>
+    <div>
+      <p id="description">
+        A calculator is a tool or device used for performing mathematical calculations, such as addition, subtraction, multiplication, and division.
+      </p>
+    </div>
+    <div class="container my-3">
+     
+      <div class="calculator card my-5">
+        <div class="card-body">
+         <div>
+           <input type="text" class="calculator-screen mb-3" id="result">
+         </div>          
+         <div class="calculator-keys">
+           <button class="allclear btn btn-danger rounded-circle">Ac</button>
+           <button class="  btn btn-danger rounded-circle" id="clear">c</button>
+           <button onclick="btn(this)"  class="btn btn-danger rounded-circle">%</button>
+           <button onclick="btn(this)"  class="rounded-circle" id="division">/</button>
+       
+           <button onclick="btn(this)"  class="btn btn-primary rounded-circle">7</button>
+           <button onclick="btn(this)"  class="btn btn-primary rounded-circle">8</button>
+           <button onclick="btn(this)"  class="btn btn-primary rounded-circle">9</button>
+           <button onclick="btn(this)"  class=" rounded-circle" id="multi">*</button>
+       
+       
+           <button onclick="btn(this)"  class="btn btn-primary rounded-circle">4</button>
+           <button onclick="btn(this)"  class="btn btn-primary rounded-circle">5</button>
+           <button onclick="btn(this)"  class="btn btn-primary rounded-circle">6</button>
+           <button onclick="btn(this)"  class=" rounded-circle" id="subtract">-</button>
+       
+       
+           <button onclick="btn(this)"  class="btn btn-primary rounded-circle">1</button>
+           <button onclick="btn(this)"  class="btn btn-primary rounded-circle">2</button>
+           <button onclick="btn(this)"  class="btn btn-primary rounded-circle">3</button>
+           <button onclick="btn(this)"  class=" rounded-circle" id="add">+</button>
+       
+       
+           <button onclick="btn(this)"  class="btn btn-primary rounded-circle">0</button>
+           <button onclick="btn(this)"  class="btn btn-primary rounded-circle">00</button>
+           <button onclick="btn(this)"  class="btn btn-primary rounded-circle">.</button>
+           <button  class=" rounded-circle" id="equal">=</button>
+         </div>
+        </div> 
+      </div>
+    </div>
+    
+   
+   <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+  </body>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+ </html>

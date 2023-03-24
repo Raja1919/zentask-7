@@ -1,0 +1,57 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul li .nav-link{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left:20px;
+  }
+  
+  a[class="navbar-brand mx-4 my-3"]{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+  }
+  body{
+    background-color: lightgray;
+  }
+  #description{
+    font-size: 25px;
+  }
+  #form{
+    background-color:rgb(10, 196, 242);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+  }
+  #title{
+    display: flex;
+    justify-content: center;
+  }
+  #description{
+    font-size:25;
+  }
+  ::placeholder{
+    font-size: 25px;
+  }
+ label{
+  font-size: 25px;
+  font-weight: bold;
+ }
+ .submit{
+  display: flex;
+  justify-content: center;
+  
+}
